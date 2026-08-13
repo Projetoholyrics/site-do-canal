@@ -1,0 +1,138 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Banner com foto de perfil */
+.banner {
+    background: linear-gradient(135deg, #1e90ff, #00bfff);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.banner .perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.banner .btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: white;
+    color: #1e90ff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.banner .btn:hover {
+    background-color: #e0f7ff;
+    transform: scale(1.05);
+}
+
+/* Cards */
+.card {
+    background-color: white;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    color: #1e90ff;
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+/* Foto */
+.foto {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Vídeo responsivo */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border:0;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #1e90ff;
+    color: white;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ffebcd;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .banner h1 {
+        font-size: 2em;
+    }
+
+    .banner p {
+        font-size: 1em;
+    }
+
+    .banner .perfil {
+        width: 120px;
+        height: 120px;
+    }
+}

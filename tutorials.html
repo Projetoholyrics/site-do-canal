@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tutoriais | Projeto Holyrics</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-orange-600 text-white py-4 shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center px-6">
+      <div class="flex items-center space-x-4">
+        <img src="https://raw.githubusercontent.com/nadatemeres-code/site-do-projeto-holyrics-/ffd4101836b41fbd15daf390dd6c41f2310fb178/Imagem%20do%20WhatsApp%20de%202025-08-27%20%C3%A0(s)%2012.10.02_a28fbfa3.jpg"
+             alt="Foto do Canal"
+             class="w-12 h-12 rounded-full border-2 border-white" />
+        <h1 class="text-2xl font-bold">Projeto Holyrics</h1>
+      </div>
+
+      <nav class="space-x-6 hidden md:flex items-center">
+        <a href="index.html" class="hover:text-orange-200">Início</a>
+        <a href="downloads.html" class="hover:text-orange-200">Downloads</a>
+        <a href="tutorials.html" class="hover:text-orange-200">Tutoriais</a>
+        <a href="backgrounds.html" class="hover:text-orange-200">Backgrounds</a>
+        <a href="artigos.html" class="hover:text-orange-200">Artigos</a>
+        <a href="videos.html" class="hover:text-orange-200">Vídeos</a>
+        <a href="about.html" class="hover:text-orange-200">Sobre</a>
+        <a href="contact.html" class="hover:text-orange-200">Contato</a>
+      </nav>
+
+      <button id="btnCompartilhar" class="bg-white text-orange-600 px-4 py-1 rounded-xl font-semibold shadow hover:bg-orange-100 transition">
+        Compartilhar
+      </button>
+
+      <button id="menu-btn" class="md:hidden focus:outline-none">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden bg-orange-500 px-6 pt-4 pb-6 space-y-3">
+      <a href="index.html" class="block text-white font-semibold hover:text-orange-200">Início</a>
+      <a href="downloads.html" class="block text-white font-semibold hover:text-orange-200">Downloads</a>
+      <a href="tutorials.html" class="block text-white font-semibold hover:text-orange-200">Tutoriais</a>
+      <a href="backgrounds.html" class="block text-white font-semibold hover:text-orange-200">Backgrounds</a>
+      <a href="artigos.html" class="block text-white font-semibold hover:text-orange-200">Artigos</a>
+      <a href="videos.html" class="block text-white font-semibold hover:text-orange-200">Vídeos</a>
+      <a href="about.html" class="block text-white font-semibold hover:text-orange-200">Sobre</a>
+      <a href="contact.html" class="block text-white font-semibold hover:text-orange-200">Contato</a>
+    </div>
+  </header>
+
+  <main class="space-y-20">
+    <section class="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-b from-orange-100 to-white px-6 pt-6">
+      <h2 class="text-4xl md:text-5xl font-bold text-orange-700 mb-4 mt-4">Tutoriais</h2>
+      <p class="text-lg md:text-xl max-w-2xl mb-6">
+        Assista às aulas mais importantes do canal e aprenda a usar o Holyrics com tranquilidade.
+      </p>
+    </section>
+
+    <section class="py-20 bg-orange-50 px-6 text-center">
+      <h2 class="text-3xl font-semibold text-orange-700 mb-10">Aulas do Canal</h2>
+      <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+          <img src="https://img.youtube.com/vi/n2mn7XnrSt4/maxresdefault.jpg" class="rounded-xl mb-4" alt="HO Lyrics — Como baixar e instalar" />
+          <h3 class="text-xl font-bold text-orange-700 mb-2">HO Lyrics — Como baixar e instalar</h3>
+          <a href="https://youtu.be/n2mn7XnrSt4" target="_blank" rel="noopener noreferrer" class="text-orange-600 font-semibold hover:underline">Assistir Aula</a>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+          <img src="https://img.youtube.com/vi/_qQ4qaPw_0Y/maxresdefault.jpg" class="rounded-xl mb-4" alt="Como adicionar temas e fundos animados" />
+          <h3 class="text-xl font-bold text-orange-700 mb-2">Como adicionar temas e fundos animados</h3>
+          <a href="https://youtu.be/_qQ4qaPw_0Y" target="_blank" rel="noopener noreferrer" class="text-orange-600 font-semibold hover:underline">Assistir Aula</a>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+          <img src="https://img.youtube.com/vi/v7UWiTkWpEc/maxresdefault.jpg" class="rounded-xl mb-4" alt="Como configurar o Holyrics do zero" />
+          <h3 class="text-xl font-bold text-orange-700 mb-2">Como configurar o Holyrics do zero</h3>
+          <a href="https://youtu.be/v7UWiTkWpEc" target="_blank" rel="noopener noreferrer" class="text-orange-600 font-semibold hover:underline">Assistir Aula</a>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+          <img src="https://github.com/Projetoholyrics/Projetoholyrics.github.io/blob/main/maxresdefault.webp?raw=true" class="rounded-xl mb-4" alt="Novos temas Animados com novidades" />
+          <h3 class="text-xl font-bold text-orange-700 mb-2">Novos temas Animados com novidades !</h3>
+          <a href="https://www.youtube.com/watch?v=2FtJOSmP2Vg" target="_blank" rel="noopener noreferrer" class="text-orange-600 font-semibold hover:underline">Assistir Aula</a>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+          <img src="https://raw.githubusercontent.com/Projetoholyrics/Projetoholyrics.github.io/b508c8c50265e6760fa86757d7709614186e9f81/ChatGPT%20Image%202%20de%20jan.%20de%202026%2C%2023_07_39.png" class="rounded-xl mb-4" alt="5 Novos temas Animados para projeção" />
+          <h3 class="text-xl font-bold text-orange-700 mb-2">5 Novos temas Animados para projeção !</h3>
+          <a href="https://www.youtube.com/watch?v=nkHYTbtilRY&t=428s&pp=ugUHEgVwdC1CUtIHCQlNCgGHKiGM7w%3D%3D" target="_blank" rel="noopener noreferrer" class="text-orange-600 font-semibold hover:underline">Assistir Aula</a>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+          <img src="https://i9.ytimg.com/vi_webp/tD7f5eUIMqg/maxresdefault.webp?v=688cf3b9&sqp=CLSK5coG&rs=AOn4CLDLeKqlDHHN-XGJoAxEunENfz5Spw" class="rounded-xl mb-4" alt="Como usar o obs studio no holyrics" />
+          <h3 class="text-xl font-bold text-orange-700 mb-2">Como usar o obs studio no holyrics !</h3>
+          <a href="https://youtu.be/tD7f5eUIMqg?si=3I_LDFfyKuzaKlZy" target="_blank" rel="noopener noreferrer" class="text-orange-600 font-semibold hover:underline">Assistir Aula</a>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+          <img src="https://github.com/Projetoholyrics/Projetoholyrics.github.io/blob/main/maxresdefault%20(2).webp?raw=true" class="rounded-xl mb-4" alt="Como conectar o celular no holyrics" />
+          <h3 class="text-xl font-bold text-orange-700 mb-2">Como conectar o celular no holyrics !</h3>
+          <a href="https://youtu.be/agUQWBgZ4cA?si=7eQ2CqXU4imUaYjc" target="_blank" rel="noopener noreferrer" class="text-orange-600 font-semibold hover:underline">Assistir Aula</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-white px-6 text-center">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-semibold text-orange-700 mb-6">Dicas do Holyrics</h2>
+        <p class="text-gray-700 mb-10">Tutoriais rápidos e práticos para usar o Holyrics com mais confiança nos cultos.</p>
+        <div class="bg-orange-50 p-10 rounded-3xl shadow hover:shadow-lg transition text-left">
+          <h3 class="text-2xl font-bold text-orange-700 mb-4">Como organizar os seus vídeos no VLC PLAYER</h3>
+          <p class="text-gray-700 mb-6">Veja o passo a passo para montar playlists no VLC Player e deixar os vídeos da projeção prontos para uso.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/dy1iUorSLyY" title="Novos temas animados para projeção" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-orange-600 text-white text-center py-4">
+    <p>© 2025 Projeto Holyrics - Desenvolvido por Davi Samuel</p>
+  </footer>
+
+  <div id="cookie-box">
+    Este site utiliza cookies para melhorar sua experiência. Você pode aceitar ou recusar o uso de cookies.
+    <div id="cookie-buttons">
+      <button id="acceptCookies">Aceitar</button>
+      <button id="declineCookies">Não aceitar</button>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
